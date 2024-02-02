@@ -1,0 +1,18 @@
+#righthalf{
+  background-image: url("images/abstract-geometric-triangle-seamless-pattern-vector.jpg");
+  background-repeat: repeat;
+  position: absolute;
+  width: 50%;
+  right: 0px;
+  height: 2225px;
+}
+* {
+  font-size: 23px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-left: 14px;
+}
+a {text-decoration: none;}
+a:hover {text-decoration: underline;}
+h1, h2 {
+  color: teal;
+}
