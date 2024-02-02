@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("images/abstract-geometric-triangle-seamless-pattern-vector.jpg");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  z-index: -1;
+}
+
+.block {
+  width: 60%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: ivory;
+  box-shadow: -5px 0 5px -5px #333, 5px 0 5px -5px #333;
+  border: 30px double rgb(111, 163, 161);
+}
+
+.content {
+  text-align: center;
+}
+
+.profile {
+  display: block;
+  height: 500px;
+  margin: auto;
+  border: 5px solid rgb(111, 163, 161);
+}
+
+.listbox {
+  background-color: rgb(226, 239, 243);
+  margin: auto;
+}
+
+.haiku {
+  font-family: myFirstFont;
+  font-size: 50px;
+  color: rgb(184, 172, 219);
+  width: 40%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border: 2px black;
+  background-image: linear-gradient(to bottom, rgb(52, 52, 90), rgb(25, 25, 43));
+  border-radius: 15px;
+}
+
+* {
+  font-size: 23px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+ul, ol{
+  display:inline-block;
+  text-align: center;
+  list-style-position: inside;
+  margin-right: 30px;
+}
+
+a {text-decoration: none;}
+a:hover {text-decoration: underline;}
+
+h1, h2 {
+  color: rgb(52, 52, 90);
+  margin-top: 17px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+h1 {
+  font-size: 70px !important;
+}
+
+table {
+  border: 1px solid black;
+  padding: 5px;
+  border-spacing: 5px;
+  table-layout: fixed;
+  margin: auto;
+  margin-top: 10px;
+  width: 90%;
+}
+th, td {
+  width: 33.33%;
+}
+th {
+  background-color: rgb(42, 42, 73);
+  color: white;
+}
+
+i + h2 {
+  display: inline-block;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(Quebecks-rgX4L.ttf);
+}
+
+.cellshade2{
+  background-color: lightblue;
+}
+.cellshade3{
+  background-color: rgb(111, 163, 161);
+}
+.cellshade4{
+  background-color: rgb(212, 226, 190);
+}
+.cellshade5{
+  background-color: rgb(230, 226, 173);
+}
+.cellshade6{
+  background-color: rgb(113, 117, 153);
+}
+.cellshade7{
+  background-color: rgb(26, 139, 139);
+}
